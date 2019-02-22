@@ -10,3 +10,8 @@ In this sample I demonstrate how HttpRequestMessage.Properties can be used to se
 
 Blog post coming soon!
 
+## 2. Helper Extension for Registering Delegating Handlers
+
+TODO
+
+Blog post coming soon!
