@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{B4CE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatingHandlerRegistrationHelper", "src\DelegatingHandlerRegistrationHelper\DelegatingHandlerRegistrationHelper.csproj", "{56E462D9-2144-481D-80FD-4E7E664B723E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerRequestPolicyFiltering", "src\PerRequestPolicyFiltering\PerRequestPolicyFiltering.csproj", "{4FA560A5-5BB3-47E5-AA46-4FDC9A37122F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{56E462D9-2144-481D-80FD-4E7E664B723E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E462D9-2144-481D-80FD-4E7E664B723E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E462D9-2144-481D-80FD-4E7E664B723E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA560A5-5BB3-47E5-AA46-4FDC9A37122F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA560A5-5BB3-47E5-AA46-4FDC9A37122F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA560A5-5BB3-47E5-AA46-4FDC9A37122F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA560A5-5BB3-47E5-AA46-4FDC9A37122F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AFBFDD28-A06A-4312-B85B-FBBB8F7ADC55} = {B4CE371A-4707-4393-ADB9-5C747F838544}
 		{56E462D9-2144-481D-80FD-4E7E664B723E} = {B4CE371A-4707-4393-ADB9-5C747F838544}
+		{4FA560A5-5BB3-47E5-AA46-4FDC9A37122F} = {B4CE371A-4707-4393-ADB9-5C747F838544}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F18DFD6E-68CD-4008-8408-7E4BFFC020DA}
